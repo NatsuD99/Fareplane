@@ -1,6 +1,6 @@
 # Flight Price Estimator
-<br>
-### Info
+
+## Info
 A web app which will estimate flight prices of various Indian Airlines based on:
 <ul>
     <li>Departure date</li>
