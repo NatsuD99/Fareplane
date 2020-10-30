@@ -56,13 +56,13 @@
         <br><br>
         <div class="container" style="margin-left: 25px;">
 
-            <form action="" method="post">
+            <form action="\predict" method="post">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Departure Time</h4>
-                                <input type="datetime-local" name="Dep_Time" id="Dep_Time">
+                                <input type="datetime-local" name="Dep_Time" id="Dep_Time" required="required">
                             </div>
 
                         </div>
@@ -72,7 +72,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Source</h4>
-                                <select name="Source" id="Source">
+                                <select name="Source" id="Source" required="required">
                                     <option value="Delhi">Delhi</option>
                                     <option value="Kolkata">Kolkata</option>
                                     <option value="Mumbai">Mumbai</option>
@@ -90,7 +90,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Arrival Time</h4>
-                                <input type="datetime-local" name="Arrival_Time" id="Arrival_Time">
+                                <input type="datetime-local" name="Arrival_Time" id="Arrival_Time" required="required">
                             </div>
 
                         </div>
@@ -100,7 +100,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Destination</h4>
-                                <select name="Destination" id="Destination">
+                                <select name="Destination" id="Destination" required="required">
                                     <option value="Cochin">Cochin</option>
                                     <option value="Delhi">Delhi</option>
                                     <option value="New Delhi">New Delhi</option>
@@ -119,7 +119,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Stoppage</h4>
-                                <select name="Stops">
+                                <select name="Stops" required="required">
                                     <option value="0">Non-stop</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -134,7 +134,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Choose your Airline</h4>
-                                <select name="Airline" id="Airline">
+                                <select name="Airline" id="Airline" required="required">
                                     <option value="Indigo">Indigo</option>
                                     <option value="Air India">Air India</option>
                                     <option value="Jet Airways">Jet Airways</option>
@@ -162,6 +162,8 @@
                 </div>
                 
             </form>
+            <br><br>
+            <h3>{{ prediction text }}</h3>
 
         </div>
 
