@@ -11,3 +11,5 @@ A web app which will estimate flight prices of various Indian Airlines based on:
     <li>Name of the Airline</li>
 </ul>
 
+## Link to the site
+https://fareplane.herokuapp.com/
