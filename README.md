@@ -19,4 +19,7 @@ Many times when people decide on booking a flight, they are initially disturbed 
 <br>
 Fareplane is a very basic website which will give you a decent estimation of your flight ticket expense based on the simple 6 parameters mentioned above. It is built using the modern day Machine Learning(AI) concepts of regression and has a reliable 82% of accuracy.
 
+## Dataset used
+https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh
+
 <strong>Link to the site is in the about section</strong>
